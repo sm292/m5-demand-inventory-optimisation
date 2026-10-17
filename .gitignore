@@ -1,3 +1,18 @@
+
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.ipynb_checkpoints/
+
+# Raw M5 data
+data/raw/*
+!data/raw/.gitkeep
+
+# Generated outputs and trained models
+models/outputs/*
+!models/outputs/.gitkeep
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
